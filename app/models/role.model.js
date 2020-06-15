@@ -5,7 +5,7 @@ module.exports = (sequelize, Sequelize) => {
       primaryKey: true
     },
     name: {
-      tpe: Sequelize.STRING
+      type: Sequelize.STRING
     }
   });
 
